@@ -1,0 +1,23 @@
+.jerome-container {
+    display: flex;
+    height: 200vh;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+.jerome-container .motion-container {
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 8rem;
+}
+
+.letter-container {
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    background-color: #FFF;
+    color: #000;
+    position: relative;
+}
