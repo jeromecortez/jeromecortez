@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactComponent as WelcomeText } from './WelcomeText.svg';
-import './Welcome.css';
+import './Welcome.css'; 
 
 const Welcome = () => {
     const setTextAnimation = (delay: number, duration: number, strokeWidth: number, timingFunction: string, strokeColor: string, repeat: boolean) => {
